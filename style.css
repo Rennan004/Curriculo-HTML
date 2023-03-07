@@ -1,24 +1,43 @@
 .jumbotron {
-    background-image: url(img/fundo.jpg );
+    background: linear-gradient(to top, #f3a108, #e9af62);
     background-size: cover;
     height: 60vh;
     z-index: -1;
+    box-shadow: 4px 3px 25px -1px rgba(0, 0, 0, 0.65);
 }
 
-li {
+.icones {
     list-style: none;
 }
 
 .box-1 {
     margin-top: 9rem;
-    background: #7c4cf6;
+    background: linear-gradient(to right, #3466db, #537FE7, #537FE7);
     height: 63.5vh;
     color: #fff;
+    box-shadow: 4px 3px 25px -1px rgba(0, 0, 0, 0.65);
 }
 
 .box-2 {
     background: #fffafa;
-    height: 63.5vh;
+    height: 220vh;
     color: black;
-    box-shadow: 300px black solid;
+    box-shadow: 0px 3px 25px -1px rgba(0, 0, 0, 0.65);
+}
+
+.linha {
+    background: black;
+    width: 4px;
+    height: 270px;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.footer {
+    background: linear-gradient(to right, #3466db, #537FE7, #537FE7);
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 3px 25px -1px rgba(0, 0, 0, 0.65);
 }
